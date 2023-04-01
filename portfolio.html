@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@300;600&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/7a6dd123f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logoo.png" class="logo" id="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <img src="./images/moon.png" alt="" class="moon_img" id="icon">
+            </nav>
+    <div class="row"></div>
+        <div class="column1">
+            <div class="header-text">
+                <h1>Hello!</h1>
+                <h1>I'm <span>Dominika Nowak</span></h1>
+                <p>Poznajmy się!</p>
+            </div>
+        </div>
+        <div class="column2">
+            <img src="./images/avatar.png" alt="" class="avatar_img">
+        </div>
+        </div>
+    </div>
+    </div>
+ <!-----------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/jpg_cv.jpg" alt="" class="me_img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Jestem studentką II roku informatyki na Uniwersytecie Ekonomicznym w Katowicach na
+                        specjalizacji "Programowanie gier i aplikacji
+                        mobilnych". Moim celem jest stałe poszerzanie
+                        wiedzy dotyczącej technologii i metod
+                        tworzenia witryn internetowych oraz aplikacji
+                        mobilnych. Dążę do zdobycia pierwszego
+                        doświadczenia komercyjnego.
+                         
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JavaScript</span> - Podstawy React.js</li>
+                            <li><span>HTML5 / CSS3</span></li>
+                            <li><span>Kotlin</span></li>
+                            <li><span>C#</span></li>
+                            <li><span>Java</span></li>
+                            <li><span>SQL</span></li><br>
+                            <li><span>Angielski</span> - B2</li>
+
+                        <!---percentage skills-->
+                        <!---first circle--->
+                        <!-- <div class="skill">
+                            <div class="outer">
+                                <div class="inner">
+                                    <h1>C#</h1>
+                                    <div id="number">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                            width="160px" height="220px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#e91e63"/>
+                                        <stop offset="100%" stop-color="#673ab7"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle1"/>
+                            </svg>
+                        </div>
+
+                         -second circle
+                        <div class="skill">
+                            <div class="outer2">
+                                <div class="inner2">
+                                    <h1>HTML</h1>
+                                    <div id="number2">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                            width="160px" height="220px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#e91e63"/>
+                                        <stop offset="100%" stop-color="#673ab7"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle2"/>
+                            </svg>
+                        </div>
+
+                        third circle
+                        <div class="skill">
+                            <div class="outer3">
+                                <div class="inner3">
+                                    <h1>Java</h1>
+                                    <div id="number3">
+                                        60%
+                                    </div>
+                                </div>
+                            </div>
+
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                            width="160px" height="220px">
+                                <defs>
+                                    <linearGradient id="GradientColor">
+                                        <stop offset="0%" stop-color="#e91e63"/>
+                                        <stop offset="100%" stop-color="#673ab7"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="80" cy="80" r="70" stroke-linecap="round" class="circle3"/>
+                            </svg>
+                        </div> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"> <!--Experience-->
+                        <ul>
+                            <li><span>PPHU Dawpol / sprzedawca</span>
+                                <br>CZERWIEC 2021 - PAŹDZIERNIK 2021, JĘDRZEJÓW
+                                <br>Praca na stanowisku sprzedawcy w sklepie z artykułami i odzieżą BHP. 
+                                Do moich obowiązków należała obsługa klientów, praca z kasą fiskalną, 
+                                wystawianie faktur, prowadzenie sprzedaży internetowej oraz 
+                                przyjmowanie zamówień i porządkowanie zatowarowania sklepu. 
+                            </li>
+                            <li><span>Praca sezonowa / sprzedawca</span>
+                                <br>PAŹDZIERNIK 2018 - 2022, JĘDRZEJÓW
+                                <br>Od 2018 roku corocznie, w sezonie przed świętem Wszystkich Świętych 
+                                pracuję jako sprzedawca chryzantem. Do moich obowiązków należy 
+                                kontakt z klientem, przygotowanie i utrzymanie w należytym porządku 
+                                stanowiska sprzedaży.
+                            </li>    
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education"> <!--Education-->
+                        <ul>
+                            <li><span>2021 - Current</span><br>Uniwersytet Ekonomiczny w Katowicach</li>
+                            <li><span>2018 - 2021</span><br>I Liceum Ogólnokształcące im. Mikołaja Reja</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/portfelik_img.jpg">
+                <div class="layer">
+                    <h2>Portfelik Website</h2>
+                    <p>Strona pozwalająca nadzorować Twoje wydatki.
+                        <br>Aby dowiedzieć się więcej o projekcie odwiedź mój profil GitHub:</p>
+                    <a href="https://github.com/dxminikxx/KontrolaWydatkow"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work2">
+                <img src="./images/home.png">
+                <div class="layer">
+                    <h2>Wspólna Przestrzeń App</h2>
+                    <p>Aplikacja jest tworzona z myślą o ułatwieniu komunikacji między mieszkańcami osiedla.
+                        <br>Aby dowiedzieć się więcej o projekcie odwiedź mój profil GitHub:</p>
+                    <a href="https://github.com/dxminikxx/WspolnaPrzestrzenApp"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!--------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-envelope"></i> dxminikxx@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 501 575 291</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_dxminikxx/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dominika-nowak-b5b319262/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/dxminikxx"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="CV_Dominika_Nowak.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+                <span id="msg">hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright © Dominika. Made with <i class="fa-solid fa-heart"></i> by Dominika Nowak. <br>The graphic used on the webside are created by Dominika Nowak.</P>
+    </div>
+    <div class="arrow-up">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<!--------message-------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6BG8Wh2tmyW8fgwPygfiCamz3QqUgPaivCSNtw4HxWYSVafOggzU6A1u3oJEK5qky/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById(msg)
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){msg.innerHTML = ""},5000)
+        form.reset()
+    })
+
+    form.reset()
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<!------percentage skilss------>
+<!-- <script>
+    let number = document.getElementById("number");
+    let counter = 0;
+    setInterval(() => {
+        if(counter ==65)
+        {
+            clearInterval();
+        }else
+        {
+            counter += 1;
+        number.innerHTML = counter + "%";
+        }  
+    }, 30)
+
+</script>
+
+<script>
+    let number2 = document.getElementById("number2");
+    let counter2 = 0;
+    setInterval(() => {
+        if(counter2 ==90)
+        {
+            clearInterval();
+        }else
+        {
+            counter2 += 1;
+        number2.innerHTML = counter2 + "%";
+        }  
+    }, 20)
+
+</script>
+
+<script>
+    let number3 = document.getElementById("number3");
+    let counter3 = 0;
+    setInterval(() => {
+        if(counter3 ==60)
+        {
+            clearInterval();
+        }else
+        {
+            counter3 += 1;
+        number3.innerHTML = counter3 + "%";
+        }  
+    }, 35)
+
+</script> -->
+
+<!------dark theme------>
+<script>
+    let icon = document.getElementById("icon");
+    let logo = document.getElementById("logo");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src = "./images/sun.png";
+            logo.src = "./images/logo_darkmode.png"
+        }
+        else{
+            icon.src = "./images/moon.png";
+            logo.src = "./images/logoo.png";
+        }
+    }
+</script>
+</body>
+</html>
